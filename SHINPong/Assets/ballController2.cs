@@ -8,13 +8,16 @@ public class ballController2 : MonoBehaviour {
     GameObject p1Goal,p2Goal;
     public int p1Score,p2Score;
     Text p1Text, p2Text;
-
+    scoreKeeper ScoreKeeper;
     void Start () {
         GetComponent<Rigidbody2D>().velocity = new Vector2(-13f,0);
         p1Goal = GameObject.Find("P1Goal");
         p2Goal = GameObject.Find("P2Goal");
         p1Text= GameObject.Find("P1 Score").GetComponent<Text>();
         p2Text = GameObject.Find("P2 Score").GetComponent<Text>();
+        ScoreKeeper = GameObject.Find("ScoreKeeper").GetComponent<scoreKeeper>();
+        Debug.Log(ScoreKeeper.Truep1Score);
+        Debug.Log(ScoreKeeper.Truep2Score);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
