@@ -224,6 +224,8 @@
   <ItemGroup>
     <Compile Include="Assets\ballController.cs" />
     <Compile Include="Assets\ballController2.cs" />
+    <Compile Include="Assets\ballController3.cs" />
+    <Compile Include="Assets\obstacleController.cs" />
     <Compile Include="Assets\player2Controller.cs" />
     <Compile Include="Assets\playerController.cs" />
     <Compile Include="Assets\scoreKeeper.cs" />
