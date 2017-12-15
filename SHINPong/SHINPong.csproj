@@ -230,6 +230,7 @@
     <Compile Include="Assets\player2Controller.cs" />
     <Compile Include="Assets\playerController.cs" />
     <Compile Include="Assets\scoreKeeper.cs" />
+    <Compile Include="Assets\startScreen.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
