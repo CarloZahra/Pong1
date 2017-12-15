@@ -3,8 +3,8 @@ sceneSetups:
   isLoaded: 1
   isActive: 1
 - path: Assets/level2.unity
-  isLoaded: 1
+  isLoaded: 0
   isActive: 0
 - path: Assets/level3.unity
-  isLoaded: 1
+  isLoaded: 0
   isActive: 0
