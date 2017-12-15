@@ -1,10 +1,4 @@
 sceneSetups:
-- path: Assets/level1.unity
+- path: Assets/endScreen.unity
   isLoaded: 1
   isActive: 1
-- path: Assets/level2.unity
-  isLoaded: 0
-  isActive: 0
-- path: Assets/level3.unity
-  isLoaded: 0
-  isActive: 0
